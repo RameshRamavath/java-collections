@@ -42,4 +42,4 @@ In collections primitives can't be hold -- only objects can be hold
 
 Collection: group of individual objects as single entity then go for collection --- group of Students objects
 
-Collection Framework --> collection of
+Collection Framework --> collection of classes and interfaces
