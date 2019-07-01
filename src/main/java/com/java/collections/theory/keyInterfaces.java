@@ -37,5 +37,58 @@ Interfaces will always provide more info compared to classes -- classes are just
 
    1. HashSet [parent class] --> 2. linkedHashSet [child class]
 
+4. SortedSet:
+
+   When duplicates are not required but elements should be sorted in some order
+   Set [parent interface] --> SortedSet [child interface]
+
+5. Navigable Set:
+   SortedSet [parent interface] --> NavigableSet [child interface] and TreeSet is its implemented class
+   when position of elements is required
+
+
+6. Queue:
+   if you want to collect and group objects prior to processing then go for Queue
+
+   collection --> queue --> priority queue & blocking queue
+
+7. Map:
+
+   when you want to represent group of objects as key & value pairs then all above Interfaces can't be used and you should go for Map
+
+   Collection Interface talks about individual objects ---> Hence Collection Interface is not parent/root interface for Map interface
+   Keys can't be duplicates
+
+   Implementation classes!
+
+   1. HashMap  2. linkedHashMap
+   3. WeakHashMap
+   4. IdentityHashMap
+   5. HashTable 6. properties  ---> Legacy classes
+
+8. SortedMap:
+
+   Based on some sorting order on keys -- child of Map [I]
+
+9. Navigable Map
+
+   when position of Keys matters -- its implemented class is TreeMap
+
+============================
+
+Sorting --> SortedSet or sortedMap
+When default sorting is required ---->  use comparable interface
+     custom sorting is required ----->  use comparator interface
+
+when you want objects one by one from collection --> cursors are required
+
+     1. Enumeration Interface
+     2. Iterator interface
+     3. ListIterator interface
+
+Imp utility classes
+
+Collections --> for some implementations on collection
+Arrays      --> for some implementations on array
  */
 }
