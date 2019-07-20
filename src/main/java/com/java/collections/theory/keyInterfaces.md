@@ -3,7 +3,7 @@
 
     Interfaces will always provide more info compared to classes -- classes are just dummy implementations of Interface. Always look for Interface definition!
 
-# 9 key Interfaces in Collection framework
+## 9 key Interfaces in Collection framework
 
 **1. Collection**
 
