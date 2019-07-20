@@ -1,5 +1,4 @@
 #                                         Collection Framework
-#                                       ==========================
 
 **What is the need?**
 
@@ -32,8 +31,8 @@
 
     Keeping these limitations --> better to go Collections
 
-But, collections comes with performance cost over Arrays
----------------------------------------------------------
+  But, collections comes with performance cost over Arrays
+
     In order to add element to arrayList --> every time it needs to copy all the elements to new referenced array -- each time copying elements is huge performance cost
 
     In collections primitives can't be hold -- only objects can be hold

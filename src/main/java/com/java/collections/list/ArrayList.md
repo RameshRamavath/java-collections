@@ -33,7 +33,7 @@
 
 
     
-# Random access (I)
+## Random access (I)
     
     Available in java.util package --> marker interface [no methods inside it]
 
